@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Uewi7EdF6QXZgtsa/LJglmMnhBrfxIYNxvoeD5SvMCo=",
+  "Source": "ContactBook",
+  "BasePath": "_content/ContactBook",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ContactBook\\wwwroot",
+      "Source": "ContactBook",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\",
+      "BasePath": "_content/ContactBook",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\StyleSheet1.css",
+      "SourceId": "ContactBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\",
+      "BasePath": "_content/ContactBook",
+      "RelativePath": "StyleSheet1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet1.css"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\StyleSheet3.css",
+      "SourceId": "ContactBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\",
+      "BasePath": "_content/ContactBook",
+      "RelativePath": "StyleSheet3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet3.css"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\StyleSheet4.css",
+      "SourceId": "ContactBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Desktop\\ContactBook\\ContactBook\\wwwroot\\",
+      "BasePath": "_content/ContactBook",
+      "RelativePath": "StyleSheet4.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet4.css"
+    }
+  ]
+}

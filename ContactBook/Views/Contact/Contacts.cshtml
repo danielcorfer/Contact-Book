@@ -1,0 +1,43 @@
+﻿@using ContactBook.ViewModels
+@model IndexViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ContactBook</title>
+    <link rel="stylesheet" href="~/StyleSheet4.css" />
+    <link rel="stylesheet" href="~/StyleSheet3.css" />
+</head>
+
+
+<a href="https://localhost:7178/contact/new" class="btn btn-outline-success">Create new contact</a>
+
+
+
+<body>
+    <table class="table table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Delete</th>
+        </tr>
+        @foreach (var item in @Model.Contacts)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Number</td>
+                <td>
+                    <form action="delete" method="post">
+                        <input type="hidden" name="id" value="@item.Id">
+                        <button type="submit" class="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
+
